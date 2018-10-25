@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="QET_CoE_SeleniumL2_Hands_On_Rajeshbhai_Vaghani">
+
+
+  <test  name="TC01_Registration">
+    <classes>
+      <class name="com.wipro.testcases.TC01_RMV_Registration"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="TC02_LoginAndEdit">
+    <classes>
+      <class name="com.wipro.testcases.TC02_RMV_LoginAndEdit"/>
+    </classes>
+  </test > <!-- Test -->
+  
+  <test  name="TC03_AddPaymentToCartAndMakePayment">
+    <classes>
+      <class name="com.wipro.testcases.TC03_RMV_AddPaymentToCartAndMakePayment"/>
+    </classes>
+  </test> <!-- Test --> 
+   
+  <test  name="TC04_ValidateMenuAndCountLinks">
+    <classes>
+      <class name="com.wipro.testcases.TC04_RMV_ValidateMenuAndCountLinks"/>
+    </classes>
+  </test> <!-- Test -->  
+  
+  <test  name="TC05_NavigateThroughBrands">
+    <classes>
+      <class name="com.wipro.testcases.TC05_RMV_NavigateThroughBrands"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
